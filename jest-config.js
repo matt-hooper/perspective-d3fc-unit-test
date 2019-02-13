@@ -1,14 +1,14 @@
 module.exports = {
     'rootDir': './',
     'verbose': true,
-    'collectCoverage': true,
+    'collectCoverage': false,
     'collectCoverageFrom': ['./**/*.js'],
     'coverageDirectory': '<rootDir>/coverage',
     'moduleFileExtensions': [
         'js'
     ],
     'transform': {
-        '^.+\\.js$': 'babel-jest'
+        '^.+\\.js$': './transform.js'
     },
     'coverageThreshold': {
         'global': {
