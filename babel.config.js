@@ -11,7 +11,6 @@ module.exports = function (api) {
     ];
     const plugins = [
         "transform-custom-element-classes"
-        ,"transform-es2015-classes"
       ];
   
     return {
