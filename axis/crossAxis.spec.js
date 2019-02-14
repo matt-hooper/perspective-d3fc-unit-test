@@ -1,3 +1,4 @@
+import * as glob from "../globals/customElements";
 import { domain, label, scale } from '../../perspective/packages/perspective-viewer-d3fc/src/js/axis/crossAxis';
 
 describe('crossAxis should', () => {
